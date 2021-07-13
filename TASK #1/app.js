@@ -1,4 +1,4 @@
-//javaScript File for Life in Zippy Section//
+//javaScript File ///
 
 let thumbnail = document.getElementsByClassName('thumbnail')
 
@@ -19,9 +19,9 @@ let buttonRight = document.getElementById('slideRight');
 let buttonLeft = document.getElementById('slideLeft');
 
 buttonLeft.addEventListener('click', function(){
-  document.getElementById('slider').scrollLeft -= 80
+  document.getElementById('slider').scrollLeft -= 60
 })
 
 buttonRight.addEventListener('click', function(){
-  document.getElementById('slider').scrollLeft += 80
+  document.getElementById('slider').scrollLeft += 60
 })
