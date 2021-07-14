@@ -1,14 +1,14 @@
 //javaScript File ///
 
-let thumbnail = document.getElementsByClassName('thumbnail')
+let thumb = document.getElementsByClassName('thumb')
 
-let activeImages = document.getElementsByClassName('active')
+let Images = document.getElementsByClassName('active')
 
-for (var i=0; i < thumbnail.length; i++)
+for (var i=0; i < thumb.length; i++)
 {
 
-  thumbnail[i].addEventListener('mouseover', function(){
-    console.log(activeImages)
+  thumb[i].addEventListener('mouseover', function(){
+    console.log(Images)
 
     document.getElementById('featured').src = this.src
   })
